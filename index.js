@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 // App setup
 var app = express();
-var serverPort = 3000;
+var serverPort = 8080;
 var httpServer = require('http').Server(app);
 
 // view engine setup
